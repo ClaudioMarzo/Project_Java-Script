@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%; /*Largura*/
+    height: 100vh; /*Altura*/
+}
+/*-----------------------Cabeçalho-----------------------*/
+.menu{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    background: #23232e;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barra-pesquisa{
+    margin: 0;
+    cursor: pointer;
+    height: 40px;   
+    width: 500px;
+    background: #ffffff;
+    border: 1px solid #111111;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;  
+}
+.menu input{
+    margin-left: 10px;
+    width: 90%;
+    background: none;
+    border: 0;
+    outline: 0; /*tirar borda preta*/
+}
+.search-lupa{
+    border-left: 0.05px solid black;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /*eixo y*/
+    align-items: center; /*eixo x*/
+}
+
+/*Imagens*/
+.logo_bemol{
+    height: 100px;
+    /* transform: translate(50%,5%); /*Posicionamento dos eixos x e y*/
+}
+.lupa{
+    position: absolute;
+    height: 20px; 
+}
+.carrinho{
+    height: 100px;
+}
+
+
+/*-----------------------Principal-----------------------*/
+.img{
+    padding-top: 10px;
+    width: auto;
+    height: auto;
+    width: 240px;
+    height: 240px;
+}
+.conteudo_principal{
+    width: 100%;
+    height: 100%;
+}
+.produtos{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descricao p{
+    margin: 10px;
+    text-transform: uppercase;
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.produtos li{
+    width: 40%;
+    margin: 20px;
+    border: 1px dashed black;
+    border-radius: 10px;
+}
+.preco{
+    background: #c0c0c0;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.preco strong{
+    font-size: 32px;
+    color: rgb(255, 5, 5);
+}
+.preco p:first-child{
+    font-weight: bold;
+    text-decoration: line-through;  
+}
+.add-carrinho{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 5px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #0AD13C ;
+    border-radius: 10px;
+}
+.add-carrinho img{
+    height: 50px;
+}
+
+/*-----------------------Rodapé-----------------------*/
+.rodape{  
+    background: #23232e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+.rodapes img{
+    margin-bottom: 2px;
+}
+.rodape p{
+    color: #ffffff;
+    margin: 20px auto;
+}
+.rodape a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: yellow;
+}
+/*-----------------------Responsividade-----------------------*/
+@media screen and (max-width:800px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .logo_bemol{
+        height: 50px;
+    }
+    .lupa{
+        height: 20px;
+    }
+    .carrinho{
+        height: 50px;
+    }
+    .produtos{
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+    }
+    .produtos li{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape img{
+        width: 100px;
+    }
+    .rodape p{
+        font-size: 12px;
+    }
+       
+}
