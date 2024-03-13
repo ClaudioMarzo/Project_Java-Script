@@ -4,7 +4,7 @@
 
 - Ano: 2019
 - Consumindo [Fake - API](https://fakestoreapi.com/)
-- O Front Trailler do Mario é um projeto que combina as habilidades fundamentais de desenvolvimento web: HTML, CSS e JavaScript.
+- HTML, CSS e JavaScript.
 
 ## Tecnologias Utilizadas
 
