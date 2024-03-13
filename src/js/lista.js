@@ -36,7 +36,7 @@ async function show(){
             </div>
             <a class="add-carrinho">
                Adicionar no carrinho
-               <img src="img/carrinho.png" alt="carrinho de compras">
+               <img src="/src/img/carrinho.png" alt="carrinho de compras">
             </a>
         `;
         productsContainer.appendChild(productElement);
