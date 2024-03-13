@@ -1,9 +1,9 @@
-# Consumindo api FAKE
+# Consumindo API DE PRODUTOS
 
 ## Visão Geral
 
 - Ano: 2019
-- Consumindo (FAKE - API )[https://fakestoreapi.com/]
+- Consumindo [Fake - API](https://fakestoreapi.com/)
 - O Front Trailler do Mario é um projeto que combina as habilidades fundamentais de desenvolvimento web: HTML, CSS e JavaScript.
 
 ## Tecnologias Utilizadas
@@ -14,4 +14,4 @@
 
 ## Screen
 
-(gif_project)[/src/midia/gif.gif]
+![gif_project](/src/midia/gif.gif)
