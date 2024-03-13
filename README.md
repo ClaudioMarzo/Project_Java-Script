@@ -10,7 +10,7 @@
 
 - **HTML**: Utilizado para estruturar o conteúdo da página web.
 - **CSS**: Aplicado para estilizar os elementos HTML, garantindo uma interface atraente e responsiva.
-- **JavaScript**: Consumindo APi e renderizando na tela
+- **JavaScript**: Consumindo API de produtos aleatórios 
 
 ## Screen
 
